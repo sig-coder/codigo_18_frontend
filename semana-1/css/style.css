@@ -1,0 +1,75 @@
+/* Vincular css con html */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: rgb(4, 54, 21);
+    color: white;
+    font-family: Helvetica;
+}
+
+main{
+    height:100vh;
+    display: flex; 
+    /*Centrar de forma vertical*/
+    align-items: center;
+  /*Centrar de forma horizontal*/
+    justify-content: center;
+}
+
+div {
+    background-color: cadetblue;
+    width: 20%;
+    padding: 30px;
+    text-align: center;
+    border-radius: 16pk;
+}
+img{
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 20pk;
+
+}
+
+h2 {
+    color: chartreuse;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+p{
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+ul{
+  list-style:none ;
+}
+
+ul {
+list-style: none;
+}
+
+ul > li > a {
+    text-decoration: none; 
+    color:white;
+    display: block;
+    margin-top: 20px;
+    background-color:rgb(4, 54, 21);
+    padding: 15px;
+    border-radius: 8px;
+}
+p2{
+  color: brown;  
+  }
+  
+a:hover{
+background-color: chartreuse;
+color: rgb(0, 0, 0);
+}
